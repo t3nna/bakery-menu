@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import {useState} from "react";
+
+
+import './styles/index.scss'
+import Navbar from "./components/Navbar";
+import Menu from "./components/Menu";
+import AltMenu from "./components/AltMenu";
+import data from "./data";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [grid, setGrid] = useState(true)
+    const [altMenu, setAltMenu] = useState(false)
+    const [type, setType] = useState('Na słono');
+
+    const category = data.filter(item =>{
+        // if (item.type === type){
+        //     return item
+        // }
+        return item.type === type
+
+    })
+
+    console.log(category)
+
+    return (
+        <main className="main">
+            <Navbar setGrid={setGrid} setAltMenu={setAltMenu} altMenu={altMenu}
+                    setType={setType}
+                    data={category[0].items}
+            />
+            {
+                altMenu ?
+                    <AltMenu data={category[0].items}/> :
+                    <Menu grid={grid} setGrid={setGrid} data={category[0].items}/>
+            }
+
+        </main>
+    );
 }
 
 export default App;

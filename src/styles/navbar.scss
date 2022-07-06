@@ -1,0 +1,88 @@
+.nav{
+  overflow-x: hidden;
+}
+
+.head-img-wrapper {
+  background-image: linear-gradient(rgb(0, 0, 0), 10%,
+          rgba(0, 0, 0, 0.6) 18%,
+          rgba(0, 0, 0, 0.4) 25%,
+          rgba(0, 0, 0, 0.2) 30%,
+          rgba(0, 0, 0, 0.2) 65%,
+          rgba(0, 0, 0, 0.3) 85%,
+          rgba(0, 0, 0, 0.6) 90%,
+          rgb(0, 0, 0) 100%),
+  url(https://taptab.mo.cloudinary.net/production-images/e0bc238a-e837-412e-8517-c37ac9d664eb.jpg);
+  color: white;
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+
+
+  display: grid;
+  align-content: space-around;
+}
+
+.burgers{
+  display: flex;
+  justify-content: flex-end;
+
+  .icon{
+    width: 22px;
+    margin-right: 0.5rem;
+  }
+}
+.restaurant-title{
+  margin-inline: 1rem;
+
+}
+
+.food-sections{
+  margin-inline: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.menu-spacer{
+  align-self: center;
+  margin-inline: 0.5rem;
+  height: 1.25rem;
+  border: 1.5px solid white;
+}
+
+
+.food-sections h2{
+  //margin-right: 0.5rem;
+  color: white;
+
+}
+
+.food-sections a ~ a{
+  margin-left: 0.5rem;
+}
+
+.inner-navigation{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  background-color: black;
+  color: whitesmoke;
+  height: 3rem;
+
+
+  scrollbar-width: none;
+}
+
+.inner-navigation::-webkit-scrollbar{
+  display: none;
+}
+
+.inner-navigation h4{
+  padding: 0 1rem;
+  color: whitesmoke;
+
+}
+
