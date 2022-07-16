@@ -69,12 +69,15 @@ export default function SingleDish(){
           url("${flatDishData.img}")`
         }}
         >
+          {/*url("${flatDishData.img}")`*/}
             <SingleDishNav/>
 
             <div className="single-dish__info">
-                <h3>{
+                <h3>
+                    {
                     flatDishData.name
-                }</h3>
+                }
+                </h3>
                 <p>
                     {
                         flatDishData.longDesc

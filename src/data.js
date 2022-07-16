@@ -11,7 +11,8 @@ const data = [
                         price: 3.50,
                         desc: 'Mąka, sól, cukier, drożdże',
                         longDesc: 'Mąka, sól, cukier, drożdże',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070427665.NIGHT.jpg?alt=media&token=85b765ff-40dd-4618-972f-e91fec305c8f'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070427665.NIGHT.jpg?alt=media&token=85b765ff-40dd-4618-972f-e91fec305c8f'
+                        img: '/prepareBatumi/bulka7.jpg'
 
                     },
                     {
@@ -20,7 +21,8 @@ const data = [
                         price: 5.00,
                         desc: 'Mąka, sól, cukier, drożdże',
                         longDesc: 'Mąka, sól, cukier, drożdże',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070355081.jpg?alt=media&token=1d0db5cb-ee2a-4335-b22c-b6b2823369dc'
+                        img: '/prepareBatumi/bulka5.jpg'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070355081.jpg?alt=media&token=1d0db5cb-ee2a-4335-b22c-b6b2823369dc'
 
                     },
 
@@ -36,7 +38,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'szynka, ser',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065916499.NIGHT.jpg?alt=media&token=32a72047-3505-4f78-aa4f-9c29900e6d07'
+                        img: '/prepareBatumi/bulka2.jpg'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065916499.NIGHT.jpg?alt=media&token=32a72047-3505-4f78-aa4f-9c29900e6d07'
 
                     },
                     {
@@ -46,7 +49,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'przyprawy, cebula, zioła',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
+                        img: '/prepareBatumi/bulka.jpg'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
 
                     },{
                         name: 'Chaczpuri z Kurczkiem',
@@ -55,7 +59,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'przyprawy, cebula, zioła',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
+                        img: '/prepareBatumi/bulka4.jpg'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
 
                     },{
                         name: 'Chaczpuri z Wołowiną',
@@ -64,7 +69,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'przyprawy, cebula, zioła',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
+                        img: '/prepareBatumi/bulka3.jpg'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
 
                     },
                     {
@@ -74,7 +80,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'szpinak, ser',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
+                        img: '/prepareBatumi/bulka2.jpg'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
 
                     },{
                         name: 'Chaczpuri trzy sery',
@@ -83,7 +90,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'mix serów',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
+                        img: '/prepareBatumi/bulka4.jpg'
 
                     },
 
@@ -94,7 +102,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'szpink, ser, łosoś ',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
+                        img: '/prepareBatumi/bulka.jpg'
 
                     }
 
@@ -105,7 +114,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'pieczarki, wędzony ser',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065824972.NIGHT.jpg?alt=media&token=48ff0b93-af41-47c0-8b03-0b952225c075'
+                        img: '/prepareBatumi/bulka.jpg'
 
                     },
                     {
@@ -115,7 +125,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'fasola, przyprawy, masło, czosnek',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065853986.NIGHT.jpg?alt=media&token=4b5d9bea-6560-42c6-bfa4-d47308a7a860'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065853986.NIGHT.jpg?alt=media&token=4b5d9bea-6560-42c6-bfa4-d47308a7a860'
+                        img: '/prepareBatumi/bulka3.jpg'
 
                     },
 
@@ -131,7 +142,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'mąka, sól, drożdże, olej, ' +
                             'ser, boczek',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_064904053.jpg?alt=media&token=c30bf942-dc42-4674-99d6-67c5b7e398e7'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_064904053.jpg?alt=media&token=c30bf942-dc42-4674-99d6-67c5b7e398e7'
+                        img: '/prepareBatumi/bulka9.jpg'
 
                     },
                     {
@@ -141,7 +153,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'mąka, sól, drożdże, olej, ' +
                             'ser',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_064839862.jpg?alt=media&token=3b5dcbba-957c-4edc-ae35-4475e6d9d577'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_064839862.jpg?alt=media&token=3b5dcbba-957c-4edc-ae35-4475e6d9d577'
+                        img: '/prepareBatumi/bulka9.jpg'
 
                     },{
                         name: 'Megruli z boczkiem ',
@@ -150,7 +163,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'mąka, sól, drożdże, olej, ' +
                             'ser',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_064904053.jpg?alt=media&token=c30bf942-dc42-4674-99d6-67c5b7e398e7'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_064904053.jpg?alt=media&token=c30bf942-dc42-4674-99d6-67c5b7e398e7'
+                        img: '/prepareBatumi/bulka9.jpg'
 
                     },
                     {
@@ -160,7 +174,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'mąka, sól, drożdże, olej, ' +
                             'wołowina, wieprzowina',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_064937991.jpg?alt=media&token=d5bf44eb-8767-40e2-9377-c1dfe61a1d6a'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_064937991.jpg?alt=media&token=d5bf44eb-8767-40e2-9377-c1dfe61a1d6a'
+                        img: '/prepareBatumi/bulka8.jpg'
 
                     },{
                         name: 'Aczruli',
@@ -169,7 +184,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'mąka, sól, drożdże, olej, ' +
                             'ser, jajka',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_064839862.jpg?alt=media&token=3b5dcbba-957c-4edc-ae35-4475e6d9d577'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_064839862.jpg?alt=media&token=3b5dcbba-957c-4edc-ae35-4475e6d9d577'
+                        img: '/prepareBatumi/bulka10.jpg'
 
                     },
                 ]
@@ -183,7 +199,8 @@ const data = [
                         price: 12.00,
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065214811.jpg?alt=media&token=64ee7ff0-cf9e-45a6-bae1-4915f77570e9'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065214811.jpg?alt=media&token=64ee7ff0-cf9e-45a6-bae1-4915f77570e9'
+                        img: '/prepareBatumi/bulka6.jpg'
 
                     },{
                         name: 'Paluch z ziemniakami i pieczrkami',
@@ -191,7 +208,8 @@ const data = [
                         price: 12.00,
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065214811.jpg?alt=media&token=64ee7ff0-cf9e-45a6-bae1-4915f77570e9'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065214811.jpg?alt=media&token=64ee7ff0-cf9e-45a6-bae1-4915f77570e9'
+                        img: '/prepareBatumi/bulka6.jpg'
 
                     },{
                         name: 'Paluch z ziemniakami i boczkiem',
@@ -199,7 +217,8 @@ const data = [
                         price: 12.00,
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065214811.jpg?alt=media&token=64ee7ff0-cf9e-45a6-bae1-4915f77570e9'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065214811.jpg?alt=media&token=64ee7ff0-cf9e-45a6-bae1-4915f77570e9'
+                        img: '/prepareBatumi/bulka14.jpg'
 
                     },{
                         name: 'Paluch z fasolą i boczkiem',
@@ -207,7 +226,8 @@ const data = [
                         price: 12.00,
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065214811.jpg?alt=media&token=64ee7ff0-cf9e-45a6-bae1-4915f77570e9'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065214811.jpg?alt=media&token=64ee7ff0-cf9e-45a6-bae1-4915f77570e9'
+                        img: '/prepareBatumi/bulka6.jpg'
 
                     },{
                         name: 'Paluch z serem',
@@ -215,7 +235,8 @@ const data = [
                         price: 12.00,
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065214811.jpg?alt=media&token=64ee7ff0-cf9e-45a6-bae1-4915f77570e9'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_065214811.jpg?alt=media&token=64ee7ff0-cf9e-45a6-bae1-4915f77570e9'
+                        img: '/prepareBatumi/bulka14.jpg'
 
                     },
                 ]
@@ -235,7 +256,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'mrożone owoce: wiśnia',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        img: '/prepareBatumi/bulka11.jpg'
 
                     },
                     {
@@ -245,7 +267,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'mrożone owoce: borówka',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        img: '/prepareBatumi/bulka12.jpg'
 
                     },
                     {
@@ -255,7 +278,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'mrożone owoce: wiśnia, czekolada',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        img: '/prepareBatumi/bulka13.jpg'
 
                     },
                     {
@@ -265,7 +289,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'mrożone owoce: truskawka',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        img: '/prepareBatumi/bulka11.jpg'
 
                     },
                     {
@@ -275,7 +300,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'jabłka, cynamon',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        img: '/prepareBatumi/bulka13.jpg'
 
                     }, {
                         name: 'Croissant z twarogiem i maliną ',
@@ -284,7 +310,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'mrożone owoce: malina, twaróg',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        img: '/prepareBatumi/bulka12.jpg'
 
                     },
                     {
@@ -294,7 +321,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'mrożone owoce: malina',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        img: '/prepareBatumi/bulka11.jpg'
 
                     },
                     {
@@ -304,7 +332,8 @@ const data = [
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem corporis cum, libero quis repellendus.',
                         longDesc: 'Mąka, margaryna, sól, cukier, ' +
                             'banan, czekolada',
-                        img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        // img: 'https://firebasestorage.googleapis.com/v0/b/batumi-menu.appspot.com/o/PXL_20220608_070144369.jpg?alt=media&token=0b87d9ef-5092-4a04-90f1-1da150f23188'
+                        img: '/prepareBatumi/bulka13.jpg'
 
                     },
 

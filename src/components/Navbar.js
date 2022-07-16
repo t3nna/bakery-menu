@@ -11,7 +11,17 @@ import TypeNavigation from "./TypeNavigation";
 export default function Navbar({ setGrid, setAltMenu, altMenu, setType, data}) {
     return (
         <nav className={'nav'}>
-            <div className="head-img-wrapper">
+            <div className="head-img-wrapper" style={{
+                backgroundImage: `linear-gradient(rgb(0, 0, 0), 10%,
+                rgba(0, 0, 0, 0.6) 18%,
+                rgba(0, 0, 0, 0.4) 25%,
+                rgba(0, 0, 0, 0.2) 30%,
+                rgba(0, 0, 0, 0.2) 65%,
+                rgba(0, 0, 0, 0.3) 85%,
+                rgba(0, 0, 0, 0.6) 90%,
+                rgb(0, 0, 0) 100%),
+                url("/prepareBatumi/batumiPiekarnia.jpg")`
+            }}>
                 <div className="burgers">
                     <div className="icon" onClick={() =>setAltMenu(!altMenu)}>
                         <MenuIcon/>
